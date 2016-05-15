@@ -6,20 +6,20 @@
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Elements in the repository
-readme.md - this file 
-runAnalysis.R - the R script that outputs the result
-tidyData.txt - the output from the code contained in the R script
-codebook.md - the description of the variables in runAnalysis.R
+- readme.md: this file 
+- runAnalysis.R: the R script that outputs the result
+- tidyData.txt: the output from the code contained in the R script
+- codebook.md: the description of the variables in runAnalysis.R
 
 # Original data provided
-activity_labels.txt: list of class labels and their activity name;
-features.txt: list of all features;
-train/X_train.txt: training set;
-train/y_train.txt: training labels;
-train/subject_train.txt: IDs of subjects in the training data;
-test/X_test.txt: test set;
-test/y_test.txt: test labels;
-test/subject_test.txt: IDs of subjects in the testing data;
+- activity_labels.txt: list of class labels and their activity name;
+- features.txt: list of all features;
+- train/X_train.txt: training set;
+- train/y_train.txt: training labels;
+- train/subject_train.txt: IDs of subjects in the training data;
+- test/X_test.txt: test set;
+- test/y_test.txt: test labels;
+- test/subject_test.txt: IDs of subjects in the testing data;
 
 # The script
 - installs the plyr package, which make it useful to split data
